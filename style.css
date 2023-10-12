@@ -11,8 +11,23 @@ h1{
 p{
     color: blueviolet;
 }
-ul{
+/* séleceur multiple : les listes (ul) située dans un nav */
+
+nav ul  {
     color: darkgoldenrod;
+    list-style-type: armenian;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+nav li {
+    display: inline;
+}
+/* Sélecteur multiple : les liens (a) située dans une nav */ 
+nav a
+ {
+    text-decoration: none;
+    color: white;
 }
 /*.gras = sélecteur (type classe) */
 .gras {
@@ -40,4 +55,6 @@ ul{
     color: red;
 }
 
-
+.bordure {
+    border: dotted 2px red;
+}
