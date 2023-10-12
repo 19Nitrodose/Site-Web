@@ -21,13 +21,21 @@ nav ul  {
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 /* Sélecteur multiple : les liens (a) située dans une nav */ 
 nav a
  {
     text-decoration: none;
-    color: white;
+    color: palevioletred;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+nav a:hover {
+    color: blue;
+    background-color: darkgreen;
 }
 /*.gras = sélecteur (type classe) */
 .gras {
